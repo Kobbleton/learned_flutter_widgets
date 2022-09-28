@@ -37,8 +37,9 @@ class _MyAppState extends State<MyApp> with TickerProviderStateMixin {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color(0XFF102436),
       appBar: AppBar(
-        title: const Text(''),
+        title: const Text('Animated Icon'),
       ),
       body: Center(
         child: GestureDetector(
