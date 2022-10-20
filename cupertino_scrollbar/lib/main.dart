@@ -1,5 +1,3 @@
-import 'dart:html';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -25,7 +23,7 @@ class _MyAppState extends State<MyApp> {
       backgroundColor: const Color(0XFF102436),
       appBar: AppBar(
         backgroundColor: const Color(0xFF1C3E5D),
-        title: const Text(''),
+        title: const Text('Cupertino Scrollbar'),
       ),
       body: CupertinoScrollbar(
         thickness: 6,
