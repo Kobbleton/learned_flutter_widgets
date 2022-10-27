@@ -2,10 +2,10 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() {
-  runApp(MaterialApp(
-    theme: ThemeData.dark(),
+  runApp(const MaterialApp(
+    // theme: ThemeData.dark(),
     debugShowCheckedModeBanner: false,
-    home: const MyApp(),
+    home: MyApp(),
   ));
 }
 
@@ -24,25 +24,24 @@ class _MyAppState extends State<MyApp> {
     return CupertinoPageScaffold(
         child: Center(
       child: CupertinoButton(
-        child: const Text('Cupertino Date Picker'),
+        child: Text('${dateTime.month}-${dateTime.day}-${dateTime.year}'),
         onPressed: () {
           showCupertinoModalPopup(
             context: context,
-            builder: (context) {
-              return SizedBox(
-                height: 250,
-                child: CupertinoDatePicker(
-                  backgroundColor: Colors.white,
-                  initialDateTime: dateTime,
-                  onDateTimeChanged: (newTime) {
-                    setState(() {
-                      dateTime = newTime;
-                    });
-                  },
-                  use24hFormat: true,
-                ),
-              );
-            },
+            builder: (BuildContext context) => SizedBox(
+              height: 250,
+              child: CupertinoDatePicker(
+                backgroundColor: Colors.white,
+                initialDateTime: dateTime,
+                onDateTimeChanged: (DateTime newTime) {
+                  setState(() {
+                    dateTime = newTime;
+                  });
+                },
+                use24hFormat: true,
+                mode: CupertinoDatePickerMode.dateAndTime,
+              ),
+            ),
           );
         },
       ),
