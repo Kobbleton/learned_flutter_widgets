@@ -1,11 +1,14 @@
 
 <h1 align="center">
   <br>
-  <a href="https://docs.flutter.dev/development/ui/widgets"><img src="https://storage.googleapis.com/cms-storage-bucket/6e19fee6b47b36ca613f.png" alt="Markdownify" width="400"></a>
+  <a href="https://docs.flutter.dev/development/ui/widgets">
+  <img src="https://storage.googleapis.com/cms-storage-bucket/c823e53b3a1a7b0d36a9.png" alt="Flutter Widgets" width="400"></a>
   <br>
-  Flutter Widgets Library
+   Widgets Library
   <br>
 </h1>
+ <br>
+
 
 <h4 align="center">Growing library of Flutter Widgets.</h4>
 
@@ -23,9 +26,18 @@
   <a href="#credits">Credits</a> •
 </p>
 
-![screenshot](https://raw.githubusercontent.com/amitmerchant1990/electron-markdownify/master/app/img/markdownify.gif)
 
-! Change Gif files here
+## Examples
+<p float="left">
+<img src="https://s1.gifyu.com/images/bezier_curves.gif" width="300" >
+<img src="https://s1.gifyu.com/images/custom_scroll_view.gif" width="300" >
+<img src="https://s4.gifyu.com/images/anim_default_text_style.gif" width="300" >
+<img src="https://s4.gifyu.com/images/cup_context_menu.gif" width="300" >
+<img src="https://s1.gifyu.com/images/animated_icon.gif" width="300" >
+<img src="https://s1.gifyu.com/images/botom_navbar.gif" width="300" >
+</p>
+
+
 
 ## Key Features
 
